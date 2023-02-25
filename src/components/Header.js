@@ -1,5 +1,6 @@
 import React, { Component } from "react"
-import '../app.scss';
+import DC from "../images/dc-logo.png"
+
 class Header extends Component {
     links = [
         {
@@ -50,7 +51,9 @@ class Header extends Component {
         return (
             <header>
                 <div className="cont-header">
-
+                    <div>
+                        <img src={DC} class="img-header" />
+                    </div>
 
                     <ul>
                         {this.links.map((link, index) => (

@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import '../app.scss';
 import Comics from "../images/buy-comics-digital-comics.png"
 import Merch from "../images/buy-comics-merchandise.png"
 import Sub from "../images/buy-comics-subscriptions.png"

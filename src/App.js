@@ -18,7 +18,9 @@ class App extends Component {
           <SecondMain />
         </main>
 
+        <footer>
 
+        </footer>
 
       </>
     );
