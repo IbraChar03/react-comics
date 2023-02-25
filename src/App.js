@@ -2,6 +2,7 @@
 import './app.scss';
 import Header from './components/Header'
 import FirstMain from './components/FirstMain'
+import SecondMain from './components/SecondMain'
 import React, { Component } from "react"
 
 class App extends Component {
@@ -12,8 +13,11 @@ class App extends Component {
         <header>
           <Header />
         </header>
+        <main>
+          <FirstMain />
+          <SecondMain />
+        </main>
 
-        <FirstMain />
 
 
       </>
