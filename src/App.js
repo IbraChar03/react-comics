@@ -4,6 +4,7 @@ import Header from './components/Header'
 import FirstMain from './components/FirstMain'
 import SecondMain from './components/SecondMain'
 import FirstFooter from './components/FirstFooter'
+import SecondFooter from './components/SecondFooter'
 import React, { Component } from "react"
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
 
         <footer>
           <FirstFooter />
+          <SecondFooter />
         </footer>
 
       </>
