@@ -41,9 +41,9 @@ class SecondMain extends Component {
                 <main className="second-main">
                     <div className="container">
                         <ul>
-                            {this.lists.map((list => (
+                            {this.lists.map(((list, index) => (
 
-                                <li>
+                                <li key={index}>
                                     <img className="img" src={list.img} />
                                     <a>
                                         {list.name}
